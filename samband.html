@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="img/atom.png"/>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <title>Ellära - Fysik 1</title>
+</head>
+<body>
+    <div class="main-wrapper">
+        <header>
+            <input type="checkbox" class="toggler">
+            <div class="hamburger"><div></div></div>
+            <div id="logo">
+                <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
+            </div>
+            <nav class="menu">
+                <div>
+                    <div>
+                        <ul>
+                            <li><a href="index.html">Hem</a></li>
+                            <li><a href="samband.html">Samband</a></li>
+                            <li><a href="uppgifter.html">Uppgifter</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </nav>
+        </header>
+        
+        <main class="showcase">
+                <div class="samband-bg"></div>
+            <div class="main-container showcase-inner">
+                <h1>Samband och formler</h1>
+                <p>En sida med alla användbara samband och formler relaterat till ellära.</p>
+                <a href="#sectionlink" class="button">Lär dig mer!</a>
+            </div>
+        </main>
+    
+        <section class="section-container" id="sectionlink">
+            <article>
+                <h2>Coulumbs lag</h2>
+                <p>
+                    \[Kraften = konstant {laddning_1 \cdot laddning_2 \over avståndet^2}\]
+                    \[F = k \frac{Q_1 Q_2} {r^2}\]
+                    \[k=\frac{1}{4 \pi \epsilon_0} \approx 8,988 \cdot 10^9 Nm^2/(As)^2\]
+                </p>
+            </article>
+            <article>
+                <h2>Elektrisk fältstyrka <i>E</i></h2>
+                <p>
+                    \[Elektrisk fältstyrka = {elektriskt kraft \over laddning}\]
+                    \[E=\frac{F}{Q}\]
+                    \[Elektrisk fältstyrka = {spänning \over avstånd}\]
+                    \[E=\frac{U}{d}\]
+                </p>
+            </article>
+            <article>
+                <h2>Spänning <i>U</i></h2>
+                <p>
+                    \[Spänning = {arbete \over laddning}\]
+                    \[U=\frac{W}{Q}\]
+                </p>
+            </article>
+            <article>
+                <h2>Elektrisk ström <i>I</i></h2>
+                <p>
+                    \[Ström = {laddning \over tid}\]
+                    \[I = {Q \over t}\]
+                </p>
+            </article>
+            <article>
+                <h2>Resistans <i>R</i></h2>
+                <p>
+                    \[Resistans = {spänning \over ström}\]
+                    \[R = {U\over I}\]
+                    \[Resistans = resistivitet \cdot {längd \over area}\]
+                    \[R=\rho \cdot \frac{l}{A}\]
+                    \[Spänning = Resistans \cdot Ström\]
+                    \[U = R \cdot I\]
+                </p>
+            </article>
+            <article>
+                <h2>Effekt <i>P</i></h2>
+                <p>
+                    \[Effekt = Spänning\cdot Ström\]
+                    \[P=U\cdot I=R\cdot I^2=\frac{U^2}{R}\]
+                </p>
+            </article>
+        </section>
+
+        <footer>
+            <p>©Vidar Petersson 2019</p>
+        </footer>
+    </div>
+</body>
+</html>
